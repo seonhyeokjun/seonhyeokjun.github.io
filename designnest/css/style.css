@@ -12,7 +12,7 @@
 .bg{font-weight: 800;font-size: 26px;line-height: 1.1em;color: #eee;position: absolute;}
 
 
-#wrap{width: 100%;overflow: hidden;}
+#wrap{width: 100%;overflow: hidden;min-width: 1200px;}
 
 .img {position: relative; margin: 100px;width: 500px; height: 500px; perspective: 2000px; perspective-origin: center center;}
 .img div.box1 {position: absolute; left: 0; top: 0; width: 100%; transition: transform 0.2s;}

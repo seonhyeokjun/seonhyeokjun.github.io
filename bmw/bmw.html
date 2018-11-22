@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/bmw.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
 </head>
 
 <body>
@@ -279,6 +279,10 @@
     </div>
 <script>
 'use strict';
+    
+$(document).on('click', 'a[href="#"]', function(e) {
+    e.preventDefault();
+});
 
 $.fn.setImageSlide = function(options) {
     var settings = $.extend({

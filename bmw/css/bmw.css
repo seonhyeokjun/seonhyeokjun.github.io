@@ -5,7 +5,7 @@
 	clear:both;
 	content:'';
 }
-#wrap{overflow: hidden;min-width: 1200px;width: 1600px;margin: 0 auto;}
+#wrap{overflow: hidden;min-width: 1200px;}
 
 header{background: #828282;line-height: 1;}
 header nav{position: relative;width: 1100px;margin: 0 auto;padding-top: 20px;padding-bottom: 20px;}
@@ -24,8 +24,8 @@ div.image-slide-banner ul.slide li:first-child {display: block;}
 div.image-slide-banner ul.slide li.on {animation: slide-on 3s ease 0s 1 normal forwards;}
 div.image-slide-banner ul.slide li.off {animation: slide-off 3s ease 0s 1 normal forwards;}
 div.image-slide-banner ul.slide li p {display: block;width: 100%;overflow: hidden;margin: 0 auto;}
-div.image-slide-banner ul.slide li>p>img{}
-div.image-slide-banner ul.indicator {position: absolute; left: 50%; bottom: 2%;width: 100%;margin: 0 auto;margin-left: -49.8%;}
+div.image-slide-banner ul.slide li>p>img{width: 100%;height: 500px;}
+div.image-slide-banner ul.indicator {position: absolute; left: 50%; bottom: -2%;width: 100%;margin: 0 auto;margin-left: -49.8%;}
 div.image-slide-banner ul.indicator li {display: inline-block;width: 25%;margin-right: -5px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 div.image-slide-banner ul.indicator li a {display: block;text-indent: -9999px;}
 div.image-slide-banner ul.indicator li.on a {border-color: #1B69D6; background: #1B69D6;height: 4px;}

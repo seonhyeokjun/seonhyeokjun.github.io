@@ -1,0 +1,54 @@
+.service img {
+    width: 160px;
+    height: 160px;
+  }
+  
+  .back-end,.dbnhosting,.etc {
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+  
+  .back-end {
+    text-align: center;
+      font-size: 16px;
+  }
+  
+  .front-end-w {
+    margin-top: 1em;
+  }
+  
+  .front-end {
+    text-align: center;
+  }
+  
+  .front-end-w div:nth-child(7),
+  .front-end-w div:nth-child(8),
+  .front-end-w div:nth-child(9),
+  .front-end-w div:nth-child(10) {
+    margin-top: 1em;
+  }
+  
+  .front-end img,
+  .back-end img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  
+  .dbnhosting, .etc {
+      text-align: center;
+      font-size: 12px;
+      color:rgb(117, 117, 117);
+  }
+  
+  .dbnhosting img, .etc img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #fancybox-overlay {
+    background: #0046f7;
+    background: -moz-linear-gradient(-45deg,  #0046f7 0%, #7a0074 100%);
+    background: -webkit-linear-gradient(-45deg,  #0046f7 0%,#7a0074 100%);
+    background: linear-gradient(135deg,  #0046f7 0%,#7a0074 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0046f7', endColorstr='#7a0074',GradientType=1 );
+  }
